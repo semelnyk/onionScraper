@@ -33,7 +33,7 @@ Verify that the Tor service is running:
 sudo systemctl status tor
 ```
 
-Check/add your user to the debian-tor
+Check/add your user to the debian-tor:
 ```bash
 sudo adduser <your-username> debian-tor
 ```
