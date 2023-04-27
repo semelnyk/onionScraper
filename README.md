@@ -1,4 +1,4 @@
-# Foobar
+# onionScraper
 
 onionScraper is a Python script for .onion web site scraping.
 
