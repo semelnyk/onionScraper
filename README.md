@@ -23,8 +23,6 @@ see which ports are being used by Tor
 ```bash
 sudo netstat -tlnp | grep tor
 ```
-
-or
 ```bash
 cat /etc/tor/torrc | grep ControlPort
 ```
