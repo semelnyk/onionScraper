@@ -19,7 +19,7 @@ def getaddrinfo(*args):
 socket.getaddrinfo = getaddrinfo
 
 # Using requests package to read in the Hidden Wiki Onion Website on the Darknet
-res = requests.get("http://quantum445bh3gzuyilxdzs5xdepf3b7lkcupswvkryf3n7hgzpxebid.onion/")
+res = requests.get("http://.onion/")
 
 # Using beautifulsoup to get the website content into a nice format
 soup = BeautifulSoup(res.content, 'html.parser')
