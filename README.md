@@ -39,7 +39,7 @@ Check/add your user to the debian-tor
 sudo adduser <your-username> debian-tor
 ```
 
-Check that the Tor proxy settings are correct. Make sure that the proxy host is set to localhost and the port is set to 9050. By default, the Tor control port is not enabled. To enable it, you need to add/uncomment the following lines to your torrc file and restart the Tor service
+Check that the Tor proxy settings are correct. By default, the Tor control port is not enabled. To enable it, you need to add/uncomment the following lines to your torrc file and restart the Tor service
 ```bash
 ControlPort 9051
 CookieAuthentication 1
