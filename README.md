@@ -16,7 +16,7 @@ pip install requests beautifulsoup4 pandas
 python3 onionScraper.py
 ```
 
-## Connection troubleshooting
+## Troubleshooting
 Typically, there could be a problem with connecting to the SOCKS5 proxy server at localhost:9051, for ex. the "connection is being refused", which means that the proxy server may not be running, or it may be running on a different port. To troubleshoot such network issues, you can try the following:
 netstat command to see which ports are being used by Tor:
 ```bash
