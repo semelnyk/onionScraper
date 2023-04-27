@@ -44,9 +44,7 @@ ControlPort 9051
 CookieAuthentication 1
 ```
 
-Check that the Tor proxy settings are correct. Make sure that the proxy host is set to localhost and the port is set to 9050.
-
-If the Tor service is running and the proxy settings are correct, try restarting the Tor service:
+Check that the Tor proxy settings are correct. Make sure that the proxy host is set to localhost and the port is set to 9050. If the Tor service is running and the proxy settings are correct, try restarting the Tor service:
 ```bash
 sudo systemctl restart tor
 ```
